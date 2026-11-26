@@ -1,21 +1,5 @@
-# Next.js template
+# Frames for Mac
 
-This is a Next.js template with shadcn/ui.
+The Frames download site and searchable playback manual. The Next.js scaffold uses shadcn preset `b1D0f1JA` with pointer cursors and Fumadocs for the MDX guides.
 
-## Adding components
-
-To add components to your app, run the following command:
-
-```bash
-npx shadcn@latest add button
-```
-
-This will place the ui components in the `components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
-```
+Run `bun install --frozen-lockfile` and `bun dev`. Edit guides in `content/docs`. Main builds and deploys the static site to GitHub Pages. The homepage pins its download to a specific stable release.
