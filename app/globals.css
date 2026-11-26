@@ -134,8 +134,7 @@
     }
 }
 .site-shell{width:min(100% - 44px,1024px);margin:auto}
-.site-bar,.site-bar nav,.site-bar a,.downloads,.guide-row,.specs{background:var(--muted);border-radius:var(--radius);padding:8px 16px}
-.specs div{display:flex;align-items:center}
+.site-bar,.site-bar nav,.site-bar a,.downloads,.guide-row,.specs div{display:flex;align-items:center}
 .site-bar{height:76px;justify-content:space-between}
 .site-bar nav,.downloads{gap:22px}.site-bar a{gap:4px;font-size:14px}
 .product,.manual{display:grid;grid-template-columns:1.6fr 1fr;gap:clamp(30px,8vw,110px)}
