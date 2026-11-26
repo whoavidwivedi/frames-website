@@ -131,7 +131,7 @@
   html {
     @apply font-sans;
     }
-}.frames-mark{display:inline-block;width:23px;height:20px;transform:skew(-13deg);border-radius:3px;background:repeating-linear-gradient(90deg,currentColor 0 5px,transparent 5px 8px)}
+}
 .site-shell{width:min(100% - 44px,1024px);margin:auto}
 .site-bar,.site-bar nav,.site-bar a,.downloads,.guide-row,.specs div{display:flex;align-items:center}
 .site-bar{height:76px;justify-content:space-between;border-bottom:1px solid var(--border)}
