@@ -17,7 +17,7 @@ export default function Home() {
     <section className="product">
       <div><h1>Frames for Mac</h1><p>A native video player for Apple Silicon. Browse your library, switch audio tracks, and step through a film one frame at a time.</p>
         <div className="downloads"><a className={buttonVariants({size:'lg'})} href={repo+'/releases/download/v2.0.8/Frames-v2.0.8-macOS.zip'}><RiDownloadLine/>Download for Mac</a>
-        <Link className={buttonVariants({variant:'outline',size:'lg'})} href="/docs/install">Install guide</Link></div>
+        <Link className={buttonVariants({variant:'secondary',size:'lg'})} href="/docs/install">Install guide</Link></div>
       </div>
       <dl className="specs">{[['Stable release','2.0.8'],['System','macOS 14 or later'],['Processor','Apple Silicon']].map(([key,value])=><div key={key}><dt>{key}</dt><dd>{value}</dd></div>)}</dl>
     </section>
